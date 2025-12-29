@@ -1,0 +1,181 @@
+# Aryan's Cinematographer Portfolio - Requirements
+
+## Project Overview
+Modern cinematographer and video editor portfolio website showcasing Instagram reels and professional work.
+
+## Tech Stack
+- **Framework**: Next.js 16.1.1 (React with TypeScript)
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Utilities**: React Intersection Observer
+
+## Dependencies (package.json)
+```json
+{
+  "dependencies": {
+    "next": "^16.1.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "framer-motion": "^11.0.0",
+    "react-intersection-observer": "^9.0.0",
+    "lucide-react": "^0.400.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^16.1.1",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.0.0",
+    "postcss": "^8.4.0"
+  }
+}
+```
+
+## System Requirements
+- **Node.js**: 18.0.0 or higher
+- **npm**: 9.0.0 or higher
+- **Operating System**: Windows/macOS/Linux
+- **Browser**: Modern browsers (Chrome, Firefox, Safari, Edge)
+
+## File Structure
+```
+portfolio/
+├── src/
+│   ├── app/
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components/
+│   │   ├── Header.tsx
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Skills.tsx
+│   │   ├── InstagramShowcase.tsx
+│   │   ├── VideoPlayer.tsx
+│   │   ├── Contact.tsx
+│   │   └── Footer.tsx
+│   └── utils/
+├── public/
+│   └── videos/
+│       ├── about/
+│       │   └── Aryan (1).mp4
+│       ├── SnapInsta.to_[...].mp4 (5 Instagram reels)
+│       └── README.md
+├── package.json
+├── tailwind.config.ts
+├── tsconfig.json
+└── next.config.ts
+```
+
+## Content Requirements
+
+### Personal Information
+- **Name**: Aryan
+- **Email**: aryanthakur2004194@gmail.com
+- **Phone**: +91 9664831030
+- **Location**: India
+- **Profession**: Cinematographer & Video Editor
+
+### Video Assets Required
+1. **Instagram Reels** (5 videos):
+   - Format: MP4 (H.264)
+   - Aspect Ratio: 9:16 (vertical)
+   - Duration: 15-60 seconds
+   - File Size: Under 10MB each
+   - Location: `/public/videos/`
+
+2. **About Me Video**:
+   - Format: MP4 (H.264)
+   - Aspect Ratio: 9:16 (vertical)
+   - Duration: 30-90 seconds
+   - File Size: Under 15MB
+   - Location: `/public/videos/about/`
+
+### Color Scheme (Monochrome Pro)
+- **Primary**: Pure Black (#000000)
+- **Secondary**: Bright Red (#e53e3e)
+- **Accent**: Medium Gray (#718096)
+- **Background**: Pure White (#ffffff)
+- **Text**: Black (#000000)
+
+## Features Implemented
+✅ Responsive design (mobile, tablet, desktop)
+✅ Auto-playing video reels with lazy loading
+✅ Parallax scrolling effects
+✅ Smooth scroll navigation
+✅ Contact form with validation
+✅ Professional animations (Framer Motion)
+✅ SEO optimized
+✅ TypeScript for type safety
+✅ Modern CSS with Tailwind
+
+## Performance Optimizations
+- Lazy loading for videos
+- Intersection Observer for scroll animations
+- Optimized video preloading
+- Compressed assets
+- Next.js automatic optimizations
+
+## Browser Compatibility
+- Chrome 90+
+- Firefox 88+
+- Safari 14+
+- Edge 90+
+- Mobile browsers (iOS Safari, Chrome Mobile)
+
+## Development Commands
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+
+# Type checking
+npm run type-check
+
+# Linting
+npm run lint
+```
+
+## Deployment Requirements
+- **Platform**: Vercel (recommended) / Netlify / AWS
+- **Node.js**: 18.x runtime
+- **Build Command**: `npm run build`
+- **Output Directory**: `.next`
+- **Environment**: Production
+
+## Video Upload Instructions
+1. Download Instagram reels using SnapInsta or similar tools
+2. Ensure MP4 format with H.264 codec
+3. Keep file sizes under 10MB for web performance
+4. Upload to `/public/videos/` directory
+5. About me video goes to `/public/videos/about/`
+
+## SEO & Meta Information
+- **Title**: "Aryan - Cinematographer & Video Editor"
+- **Description**: Professional cinematographer portfolio
+- **Keywords**: cinematography, video editing, visual storytelling
+- **Open Graph**: Configured for social sharing
+
+## Security Considerations
+- No sensitive data in client-side code
+- Contact form validation
+- HTTPS required for production
+- Content Security Policy headers recommended
+
+## Maintenance
+- Regular dependency updates
+- Video optimization for web
+- Performance monitoring
+- Browser compatibility testing
+- Mobile responsiveness checks
