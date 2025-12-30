@@ -1,4 +1,4 @@
-'use client';
+ 'use client';
 
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -91,7 +91,7 @@ const Contact = () => {
                 
                 <div className="flex gap-4 mb-6">
                   <motion.a
-                    href="https://instagram.com/yourusername"
+                    href="https://www.instagram.com/restless_aryan?igsh=MTM5aGNvNWUxNmZ1eQ%3D%3D&utm_source=qrin"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}
@@ -103,12 +103,12 @@ const Contact = () => {
                   </motion.a>
                   
                   <motion.a
-                    href="https://instagram.com/yourusername"
+                    href="https://wa.me/919664831030"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="flex items-center gap-2 px-4 py-2 border-2 border-pink-500 text-pink-500 rounded-full hover:bg-pink-500 hover:text-white transition-all duration-200"
+                    className="flex items-center gap-2 px-4 py-2 border-2 border-green-500 text-green-500 rounded-full hover:bg-green-500 hover:text-white transition-all duration-200"
                   >
                     <span>📱</span>
                     <span>DM Me</span>
